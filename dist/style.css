@@ -1,0 +1,320 @@
+  .Cart {
+      font-size: 14px;
+      font-family: Helvetica, Arial, sans-serif;
+      margin: 0;
+      position: relative;
+      box-sizing: border-box;
+      border: 1px solid #CCC;
+      float: right;
+      width: 50%;
+      background: 0 0;
+      padding: 50px;
+  }
+
+  .Price {
+      font-family: Helvetica, Arial, sans-serif;
+      font-weight: 700;
+      font-size: 2.5714285714285716rem;
+  }
+
+  .GCS {
+      height: 2%;
+      width: 2%;
+      position: relative;
+      right: 185px;
+      top: -15px;
+  }
+  .Desc {
+      list-style: disc;
+      list-style-position: outside;
+      padding: 0;
+      font-family: Helvetica, Arial, sans-serif;
+      font-size: 1rem;
+      color: #333;
+      margin-bottom: 50px;
+  }
+
+  .ServiceBanner {
+      font-size: 2px;
+      font-family: Helvetica, Arial, sans-serif;
+      border: 0;
+      height: auto;
+      width: 100%;
+      float: center;
+  }
+
+  .iconMinus {
+      text-decoration: none;
+      transition: all .3s ease;
+      text-transform: uppercase;
+      margin-bottom: 20px;
+      font-family: Helvetica, Arial, sans-serif;
+      text-align: center;
+      vertical-align: middle;
+      -webkit-appearance: none;
+      white-space: nowrap;
+      font-weight: 400;
+      padding: 0 15px;
+      height: 54px;
+      min-height: 54px;
+      max-height: 54px;
+      line-height: 54px;
+      background-image: none;
+      border-radius: 0;
+      border: 1px solid #CCC;
+      font-size: 24px;
+      box-sizing: border-box;
+      display: inline-grid;
+      cursor: not-allowed;
+      color: #999;
+      background-color: #E5E5E5;
+      border-color: #E5E5E5;
+  }
+
+  .quantity {
+      margin: 0;
+      margin-bottom: 20px;
+      vertical-align: middle;
+      color: #000;
+      font-size: .75rem;
+      background-color: #FFF;
+      background-image: none;
+      border: 1px solid #CCC;
+      border-radius: 0;
+      box-sizing: border-box;
+      display: inline-grid;
+      height: 54px;
+      width: 54px;
+      text-align: center;
+      padding: 0;
+      -webkit-appearance: none !important;
+  }
+
+  .iconPlus {
+      text-decoration: none;
+      transition: all .3s ease;
+      text-transform: uppercase;
+      margin-bottom: 20px;
+      font-family: Helvetica, Arial, sans-serif;
+      text-align: center;
+      vertical-align: middle;
+      -webkit-appearance: none;
+      white-space: nowrap;
+      font-weight: 200;
+      padding: 0 15px;
+      height: 54px;
+      min-height: 54px;
+      max-height: 54px;
+      line-height: 54px;
+      cursor: pointer;
+      background-image: none;
+      border-radius: 0;
+      border: 1px solid #CCC;
+      font-size: 1rem;
+      font-weight: 400;
+      box-sizing: border-box;
+      background-color: #FFF;
+      display: inline-grid;
+      color: #0471AF;
+  }
+
+  .addButton {
+      text-transform: uppercase;
+      font-family: Helvetica,
+          Arial,
+          sans-serif;
+      text-align: center;
+      vertical-align: center;
+      -webkit-appearance: none;
+      white-space: nowrap;
+      font-weight: 400;
+      cursor: pointer;
+      background-image: none;
+      border-radius: 0;
+      border: 1px solid transparent;
+      font-size: 1rem;
+      color: #FFF;
+      background-color: #338700;
+      line-height: 54px;
+      padding: 0 20px;
+      height: 54px;
+      min-height: 54px;
+      max-height: 54px;
+      display: block;
+      margin: 0 auto;
+      width: 50%;
+      float: right;
+      box-sizing: border-box;
+  }
+
+  .Save {
+      text-decoration: none;
+      transition: all .3s ease;
+      text-transform: uppercase;
+      font-family: Helvetica, Arial, sans-serif;
+      text-align: center;
+      vertical-align: middle;
+      -webkit-appearance: none;
+      white-space: nowrap;
+      font-weight: 400;
+      cursor: pointer;
+      border-radius: 0;
+      border: 1px solid #CCC;
+      font-size: 1rem;
+      background-color: #FFF;
+      line-height: 54px;
+      padding: 0 20px;
+      height: 54px;
+      min-height: 54px;
+      max-height: 54px;
+      display: block;
+      margin: 0 auto;
+      width: 50%;
+      float: left;
+      box-sizing: border-box;
+      color: #0471AF;
+  }
+
+  .Share {
+      text-decoration: none;
+      transition: all .3s ease;
+      text-transform: uppercase;
+      font-family: Helvetica, Arial, sans-serif;
+      text-align: center;
+      vertical-align: middle;
+      -webkit-appearance: none;
+      white-space: nowrap;
+      font-weight: 400;
+      cursor: pointer;
+      background-image: none;
+      border-radius: 0;
+      border: 1px solid #CCC;
+      font-size: 1rem;
+      background-color: #FFF;
+      line-height: 54px;
+      padding: 0 20px;
+      height: 54px;
+      min-height: 54px;
+      max-height: 54px;
+      display: block;
+      margin: 0 auto;
+      width: 50%;
+      float: right;
+      box-sizing: border-box;
+      color: #0471AF;
+  }
+
+  .vSpacingLarge {
+      font-size: 14px;
+      font-family: Helvetica, Arial, sans-serif;
+      border: 0;
+      height: 1px;
+      background: #E5E5E5;
+      margin-bottom: 20px !important;
+  }
+
+  .box {
+      height: 10%;
+      width: 10%;
+      position: relative;
+      left: 110px;
+  }
+
+  .box-text {
+      font-family: Helvetica, Arial, sans-serif;
+      font-size: 1.2857142857142858rem;
+      color: #333;
+      /* text-align: center; */
+      position: relative;
+      left: 45px;
+  }
+
+  .gauge-pickup {
+      margin: 0;
+      padding: 0;
+      margin-top: 10px: margin-bottom: 5px;
+      font-family: Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color: #333;
+      position: relative;
+      left: 80px;
+      top: -10px;
+  }
+
+  .checkbox-1 {
+      height: 3%;
+      width: 3%;
+      position: relative;
+      top: -58px;
+      left: 40px;
+  }
+
+  .falcon {
+      height: 10%;
+      width: 10%;
+      position: relative;
+      right: -400px;
+      top: -215px;
+  }
+
+  .delivery-text {
+      font-family: Helvetica, Arial, sans-serif;
+      font-size: 1.2857142857142858rem;
+      color: #333;
+      position: relative;
+      right: -400px;
+      top: -210px;
+  }
+
+  .gauge-delivery {
+      margin: 0;
+      padding: 0;
+      margin-top: 10px: margin-bottom: 5px;
+      font-family: Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color: #333;
+      position: relative;
+      right: -385px;
+      top: -220px;
+  }
+
+  .checkbox-2 {
+      height: 3%;
+      width: 3%;
+      position: relative;
+      top: -235px;
+      right: -350px;
+  }
+  .aisle {
+      margin: 0;
+      padding: 0;
+      margin-bottom: 20px;
+      font-family: Helvetica, Arial, sans-serif;
+      font-size: 1rem;
+      line-height: 1.4em;
+      color: #333;
+      float: left;
+      /* top: -400px; */
+  }
+
+  .otherStores {
+      text-transform: uppercase;
+      font-family: Helvetica, Arial, sans-serif;
+      text-align: center;
+      vertical-align: middle;
+      font-weight: 400;
+      cursor: pointer;
+      border: .5px solid #CCC;
+      font-size: 14px;
+      background-color: #FFF;
+      line-height: 30px;
+      height: 30px;
+      margin: 0 auto;
+      width: 50%;
+      box-sizing: border-box;
+      color: #0471AF;
+      width: 200px;
+      height: 40px;
+      position: relative;
+      left: 0px;
+  }
