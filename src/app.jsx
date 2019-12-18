@@ -8,32 +8,28 @@ class App extends Component {
         super(props);
         this.state = {
             products: [],
-            query: "17264ec6-1ab1-11ea-b9fe-332f5417770f"
+            query: "17264ec6"
         }
     }
     componentDidMount() {
-        // this.getProductInfo()
-        this.getSingleProduct()
+        window.addEventListener('query',(e) => {
+            this.setState({query: e.detail})
+            this.getSingleProduct(this.state.query)
+            console.log(e)
+        })
+        this.getSingleProduct(this.state.query)
         console.log(this.state.query)
     }
-    // getProductInfo() {
-    //     axios.get(`http://localhost:3007/products`)
-    //         .then(({ data }) => {
-    //             console.log(data)
-    //             this.setState({ products: data })
-    //         })
-    // }
-    //   handleSubmit() {
-    //   this.getSingleProduct()
-    // }
-    getSingleProduct() {
-      axios.get(`http://localhost:3007/products/${this.state.query}`)
+   
+    getSingleProduct(query) {
+      axios.get(`http://localhost:3007/products/${query}`)
           .then(({ data }) => {
               console.log(data)
             //   console.log(this.state.query)
           this.setState({ products: data})
         })
     }
+    
     render() {
         return (
             <div className="Cart">
